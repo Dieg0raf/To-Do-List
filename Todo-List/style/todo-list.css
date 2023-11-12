@@ -1,0 +1,98 @@
+body {
+    background-color: #2a4d7e;
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+.body-list {
+    border: 5px whites;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    width: 550px;
+    height: 550px;
+}
+
+.title-main {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.title-tasks {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.div-list-item {
+    display: grid;
+    grid-template-columns: 300px 150px 100px;
+    column-gap: 15px;
+    text-align: center;
+    align-items: stretch;
+    margin-bottom: 100px;
+}
+
+.div-todo-list {
+    margin-top: -200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 150px 150px 240px;
+    align-items: center;
+    color: white;
+    row-gap: 20px;
+    
+
+}
+
+.name-input,
+.date-input {
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    background-color: #424549;
+    color: gray;
+}
+
+.date-input {
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: rgba(0, 255, 0, 0.795);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.delete-button {
+    margin-left: 150px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.767);
+    color: white;
+    cursor: pointer;
+}
+
+.name-todo, 
+.date-todo {
+    font-size: 20px;
+}
+
+.delete-icon {
+    width: 18px;
+    height: 18px;
+}

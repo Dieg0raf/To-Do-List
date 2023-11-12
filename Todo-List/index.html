@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Todo-List</title>
+        <link rel="stylesheet" href="style/todo-list.css">
+    </head>
+    <body>
+        <!-- All of the to-do-list -->
+        <div class="body-list">
+            <!-- Title for List -->
+            <p class="title-main">To Do List</p>
+            <!-- List Item and add button -->
+            <div class="js-div-list-item div-list-item">
+               <input type="text" class="js-item-name-input name-input required" placeholder="List Item">
+                <input type="date" class="js-date-input date-input required">
+                <button class="js-add-item-button add-button" onclick="
+                    addItem();
+                ">Add Item</button>
+            </div>
+
+            <!-- Title For Tasks -->
+            <p class="title-tasks">Tasks</p>
+            <!-- To-do-list -->
+            <div class="js-div-todo-list div-todo-list">
+
+            </div>
+        </div>
+        <script src="script/todo-list.js"></script>
+    </body>
+</html>
